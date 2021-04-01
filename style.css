@@ -31,7 +31,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .add__wrapper {
     display: flex;
@@ -118,8 +118,8 @@ input,button{
     width: 226px;
 }
 .do__input, .do__input-edit, .done__input {
-    width: 226px
-    display: none
+    width: 226px;
+    display: none;
 }
 /* .delete:hover {
     color: #cf2323;
@@ -135,7 +135,7 @@ input,button{
 
 /* Completed */
 .done__label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
@@ -146,7 +146,7 @@ input,button{
 
 .do__input-edit {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .do__label-edit {

@@ -40,10 +40,12 @@ ul {
     margin: 0;
     padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
     list-style: none;
 }
-input,button{
+input,
+button{
     outline: none;
 }
 .button {
@@ -69,7 +71,10 @@ input,button{
     margin: 0;
     text-transform: uppercase;
 }
-.do__input, .add__task, .do__input-edit, .done__input {
+.do__input, 
+.add__task, 
+.do__input-edit,
+ .done__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -81,7 +86,10 @@ input,button{
     font-family: Lato, sans-serif;
     color: #888;
 }
-.do__input:focus, .add__task:focus, .do__input-edit:focus, .done__input:focus {
+.do__input:focus, 
+.add__task:focus, 
+.do__input-edit:focus, 
+.done__input:focus {
     color: #333;
 }
 
@@ -98,7 +106,9 @@ input,button{
 } */
 
 /* Task list */
-.do__li, .do__li-edit, .done__li {
+.do__li, 
+.do__li-edit, 
+.done__li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -108,16 +118,22 @@ input,button{
     align-items: center;
     vertical-align: middle;
 }
-.do__check, .do__check-edit, .done__check {
+.do__check, 
+.do__check-edit, 
+.done__check {
     margin: 0 10px;
 }
-.do__label, .do__label-edit, .done__label {
+.do__label, 
+.do__label-edit, 
+.done__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-.do__input, .do__input-edit, .done__input {
+.do__input, 
+.do__input-edit, 
+.done__input {
     width: 226px;
     display: none;
 }

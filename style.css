@@ -37,14 +37,14 @@
     display: flex;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 li, h3 {
-    list-style:none;
+    list-style: none;
 }
 input,button{
-    outline:none;
+    outline: none;
 }
 .button {
     background: none;
@@ -119,7 +119,7 @@ input,button{
 }
 .do__input, .do__input-edit, .done__input {
     width: 226px
-    display:none
+    display: none
 }
 /* .delete:hover {
     color: #cf2323;
@@ -145,10 +145,10 @@ input,button{
 } */
 
 .do__input-edit {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .do__label-edit {
-    display:none;
+    display: none;
 }

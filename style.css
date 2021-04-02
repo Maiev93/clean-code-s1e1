@@ -28,7 +28,7 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.do__label, .done__label, .do__label-edit {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -71,10 +71,11 @@ button{
     margin: 0;
     text-transform: uppercase;
 }
-.do__input, 
+.do__input,
 .add__task, 
 .do__input-edit,
- .done__input {
+.done__input 
+{
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -85,6 +86,9 @@ button{
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
+    display: inline-block;
+    width: 224px;
+    flex-grow: 1;
 }
 .do__input:focus, 
 .add__task:focus, 
@@ -131,10 +135,11 @@ button{
     font-size: 18px;
     width: 226px;
 }
-.do__input, 
-.do__input-edit, 
-.done__input {
-    width: 226px;
+
+.dissapear
+/* .done__input  */
+{
+    /* width: 226px; */
     display: none;
 }
 /* .delete:hover {
@@ -155,16 +160,3 @@ button{
     color: #888;
 }
 
-/* Edit Task */
-/* ul li input[type="text"] {
-    display:none
-} */
-
-.do__input-edit {
-    display: inline-block;
-    width: 224px;
-}
-
-.do__label-edit {
-    display: none;
-}
